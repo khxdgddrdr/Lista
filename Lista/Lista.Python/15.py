@@ -1,8 +1,8 @@
-frase = "Esta é uma frase de exemplo."
-contador = 0
+fra = "Esta é uma frase de exemplo."
+con = 0
 
-for caractere in frase:
+for caractere in fra:
     if caractere.isspace():
-        contador += 1
+        con += 1
 
-print("A frase tem", contador, "caracteres em branco.")
+print("A frase tem", con, "caracteres em branco.")
