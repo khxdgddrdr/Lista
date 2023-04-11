@@ -1,9 +1,9 @@
-string = input("Digite uma palavra ou frase: ")
+stri = input("Digite uma palavra ou frase: ")
 
-nova_string = ""
+n_string = ""
 
-for letra in string:
-    if letra.lower() not in "aeiou":
-        nova_string += letra
+for let in stri:
+    if let.lower() not in "aeiou":
+        n_string += let
 
-print("A nova string sem vogais é:", nova_string)
+print("A nova string sem vogais é:", n_string)
