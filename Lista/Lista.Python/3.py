@@ -1,23 +1,23 @@
-vetA = list("COMPUTACAO")
+vA = list("COMPUTACAO")
 
-vetB = input("Digite uma palavra de 10 letras: ")
+vB = input("Digite uma palavra de 10 letras: ")
 
-vetB = vetB.upper()
+vB = vB.upper()
 
 for i in range(len(vetA)):
-    if vetA[i] == vetB[i]:
-        print(f"A letra '{vetB[i]}' está na posição {i} de vetB.")
+    if vA[i] == vB[i]:
+        print(f"A letra '{vB[i]}' está na posição {i} de vetB.")
 
-vetA = "COMPUTACAO"
-vetB = input("Digite uma palavra de 10 letras: ")
+vA = "COMPUTACAO"
+vB = input("Digite uma palavra de 10 letras: ")
 
 print("As letras em comum nas mesmas posições são:")
-for i in range(len(vetA)):
-    if vetA[i].lower() == vetB[i].lower():
+for i in range(len(vA)):
+    if vetA[i].lower() == vB[i].lower():
         print(i, end=" ")
 print()
 
-print("A palavra digitada foi:", vetB)
+print("A palavra digitada foi:", vB)
 
 string = input("Digite uma string: ")
 comprimento = len(string)
