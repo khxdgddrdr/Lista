@@ -1,6 +1,6 @@
-nome = input("Digite um nome: ")
+n = input("Digite algum nome: ")
 
-if nome.lower().startswith("a"):
-    print(nome)
+if n.lower().startswith("a"):
+    print(n)
 else:
-    print("O nome não começa com 'a'.")
+    print("não começa com 'a'.")
