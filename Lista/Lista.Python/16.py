@@ -1,9 +1,9 @@
-palavra = input("Digite uma palavra: ")
-nova_palavra = ""
+pa = input("Digite uma palavra: ")
+n_palavra = ""
 
-for caractere in palavra:
+for caractere in pa:
     novo_valor_ascii = ord(caractere) + 1
     novo_caractere = chr(novo_valor_ascii)
-    nova_palavra += novo_caractere
+    n_palavra += novo_caractere
 
-print("A nova palavra é:", nova_palavra)
+print("A nova palavra é:", n_palavra)
