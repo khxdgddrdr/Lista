@@ -1,5 +1,5 @@
-string = input("Digite uma string: ")
+string = input("Digite alguma string: ")
 
-nova_string = string.replace("0", "1")
+n_string = string.replace("0", "1")
 
-print("Nova string: ", nova_string)
+print("Nova string: ", n_string)
