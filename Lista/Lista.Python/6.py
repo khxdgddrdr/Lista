@@ -1,2 +1,2 @@
-nome = input("Digite um nome: ")
-print(nome[:4])
+n = input("Digite um nome: ")
+print(n[:4])
