@@ -1,4 +1,4 @@
-string = input("Digite uma string: ")  
-string_maiuscula = string.upper()  
-print(string_maiuscula)  
+stri = input("Digite uma string: ")  
+stri_maiuscula = stri.upper()  
+print(stri_maiuscula)  
 
