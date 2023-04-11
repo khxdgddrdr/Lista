@@ -1,5 +1,5 @@
-entrada = input("Digite uma cadeia de caracteres em maiúsculo: ")
+ent = input("Digite uma cadeia de caracteres em maiúsculo: ")
 
-saida = entrada.lower()
+sa = ent.lower()
 
-print("A cadeia de caracteres em minúsculo é: ", saida)
+print("A cadeia de caracteres em minúsculo é: ", sa)
